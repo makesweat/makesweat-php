@@ -13,12 +13,6 @@ Download the [latest release](https://github.com/makesweat/makesweat-php/release
 
 Simple usage looks like:
 
-```php
-\Stripe\Stripe::setApiKey('sk_test_BQokikJOvBiI2HlWgH4olfQ2');
-$charge = \Stripe\Charge::create(['amount' => 2000, 'currency' => 'usd', 'source' => 'tok_189fqt2eZvKYlo2CTGBeg6Uq']);
-echo $charge;
-```
-
 ```
 require(dirname(__FILE__) . '/Makesweat.php');
 
